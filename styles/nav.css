@@ -1,0 +1,22 @@
+.nav-wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-wrapper > .greeting {
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+}
+
+.nav-wrapper > .icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-wrapper > .icons > .icon {
+    padding: 0px 4px;
+    width: 30px;
+}

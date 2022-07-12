@@ -1,0 +1,9 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(38, 38, 38);
+    color: rgb(231, 231, 231);
+}
+
+body, html::-webkit-scrollbar {
+    height: 10px;
+}

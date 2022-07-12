@@ -1,0 +1,30 @@
+.daily-suggestions {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-column > .daily-suggestion1, .left-column > .daily-suggestion2, .left-column > .daily-suggestion3, .right-column > .daily-suggestion1, .right-column > .daily-suggestion2, .right-column > .daily-suggestion3 {
+    background-color: rgb(117, 117, 117);
+    width: 284px;
+    height: 100px;
+    position: relative;
+    border-radius: 5px;
+    margin: 10px 10px 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.daily-image {
+    background-color: rgb(176, 176, 176);
+    width: 35%;
+    height: 100%;
+    margin-left: -56px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.daily-title {
+    margin-left: -100px;
+}
